@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal projects on Diego Mellizo - Game Developer</title>
+    <title>Personal projects on Diego Mellizo | Game Developer</title>
     <link>https://diegomellizo.com/personal-projects/</link>
-    <description>Recent content in Personal projects on Diego Mellizo - Game Developer</description>
+    <description>Recent content in Personal projects on Diego Mellizo | Game Developer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <managingEditor>diegomellizo@outlook.com (Diego Mellizo)</managingEditor>
     <webMaster>diegomellizo@outlook.com (Diego Mellizo)</webMaster>
     <atom:link href="https://diegomellizo.com/personal-projects/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,7 @@
       <link>https://diegomellizo.com/personal-projects/tank-blast-arena-2d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>diegomellizo@outlook.com (Diego Mellizo)</author>
       <guid>https://diegomellizo.com/personal-projects/tank-blast-arena-2d/</guid>
-      <description>2017 - 2019 Play on simmer.io&#xA;Genre: Tank shooter, 2D top-down view, death-match mode.&#xA;Description: Multiplayer game supporting up to 20 concurrent users (CCU). It includes AI-driven tanks (gray color) to compensate for the absence of players.</description>
+      <description>2017 - 2019 Play on simmer.io&#xA;Genre: Tank shooter, 2D top-down view.&#xA;Description: Multiplayer game supporting up to 20 concurrent users (CCU). Deathmatch mode, aka free-for-all. It includes AI-driven tanks (in gray color) to compensate for the absence of players.</description>
     </item>
   </channel>
 </rss>

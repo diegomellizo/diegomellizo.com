@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Contact me - Diego Mellizo - Game Developer</title>
-<meta name="description" content="If you have any question, suggestion or request, you can reach me out at:
+<title>Contact me - Diego Mellizo | Game Developer</title>
+<meta name="description" content="If you have any question, suggestion or request, you can reach me out through:
 diegomellizo@outlook.com
 LinkedIn">
 
@@ -16,7 +16,7 @@ LinkedIn">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "name": "Diego Mellizo - Game Developer",
+    "name": "Diego Mellizo | Game Developer",
     
     "url": "https:\/\/diegomellizo.com\/"
 }
@@ -34,24 +34,43 @@ LinkedIn">
 </script>
 
 <meta property="og:title" content="Contact me" />
-<meta property="og:description" content="If you have any question, suggestion or request, you can reach me out at:
+<meta property="og:description" content="If you have any question, suggestion or request, you can reach me out through:
 diegomellizo@outlook.com
 LinkedIn">
 <meta property="og:url" content="https://diegomellizo.com/contact-me/" />
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Diego Mellizo - Game Developer" />
+<meta property="og:site_name" content="Diego Mellizo | Game Developer" />
 <link rel="apple-touch-icon" sizes="180x180" href=" https://diegomellizo.com/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://diegomellizo.com/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://diegomellizo.com/favicon/favicon-16x16.png">
 
 
 <meta name="generator" content="Hugo 0.123.5">
-<link rel="alternate" href="https://diegomellizo.com/index.xml" type="application/rss+xml" title="Diego Mellizo - Game Developer">
+<link rel="alternate" href="https://diegomellizo.com/index.xml" type="application/rss+xml" title="Diego Mellizo | Game Developer">
 <script src="https://diegomellizo.com/js/dark-mode.js"></script><script src="https://diegomellizo.com/vendor/lunr/lunr.min.js"></script><script src="https://diegomellizo.com/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
 
 
 
 <style>
+ 
+a {
+    color: #008aff;
+}
+
+ 
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: orangered;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: orangered;
+}
+ 
+
  
 .hi-svg-inline {
     vertical-align: -0.125rem;
@@ -62,6 +81,26 @@ LinkedIn">
     filter: none;
     -webkit-filter: none;
 }
+
+ 
+.flagselect {
+    border: 2px solid #008aff;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.flagnoselect {
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+ 
 </style>
 
 
@@ -91,9 +130,9 @@ if (!doNotTrack) {
       <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
         <div class="container">
 
-          <a class="navbar-brand fw-bold" href="https://diegomellizo.com/">Diego Mellizo - Game Developer</a>
+          <a class="navbar-brand fw-bold" href="https://diegomellizo.com/">Diego Mellizo | Game Developer</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -111,7 +150,7 @@ if (!doNotTrack) {
                 
 
                 <a class="nav-link " title="About me"
-                  href="/about-me/"> About me</a>
+                   href="/about-me/"> About me</a>
               </li>
 
               
@@ -126,8 +165,8 @@ if (!doNotTrack) {
                 
                 
 
-                <a class="nav-link " title="Grading project"
-                  href="/grading-project/"> Grading project</a>
+                <a class="nav-link " title="Degree project"
+                   href="/degree-project/"> Degree project</a>
               </li>
 
               
@@ -142,8 +181,8 @@ if (!doNotTrack) {
                 
                 
 
-                <a class="nav-link " title="Professional projects"
-                  href="/professional-projects/"> Professional projects</a>
+                <a class="nav-link " title="Professional"
+                   href="/professional-projects/"> Professional</a>
               </li>
 
               
@@ -158,8 +197,8 @@ if (!doNotTrack) {
                 
                 
 
-                <a class="nav-link " title="Personal projects"
-                  href="/personal-projects/"> Personal projects</a>
+                <a class="nav-link " title="Personal"
+                   href="/personal-projects/"> Personal</a>
               </li>
 
               
@@ -175,10 +214,25 @@ if (!doNotTrack) {
                 
 
                 <a class="nav-link  active " title="Contact me"
-                  href="/contact-me/"> Contact me</a>
+                   href="/contact-me/"> Contact me</a>
               </li>
 
               
+              
+
+              
+              
+              
+              
+              <a class="flagselect" href="/contact-me/">
+                <img src="/images/lang-flags/en-flag.png"/>
+              </a>
+              
+              
+              
+              <a class="flagnoselect" href="/es/contact-me/">
+                <img src="/images/lang-flags/es-flag.png"/>
+              </a>
               
 
               <li class="nav-item nav-link">
@@ -197,15 +251,15 @@ if (!doNotTrack) {
 
             
             <template id="search-heading" hidden
-                data-results-none="No results found for “{}”"
-                data-results-one="Found one result for “{}”"
-                data-results-many="Found 13579 results for “{}”"
+                      data-results-none="No results found for “{}”"
+                      data-results-one="Found one result for “{}”"
+                      data-results-many="Found 13579 results for “{}”"
             >
-              <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
-                  <h1 id="search-title" class="search-title"></h1>
-                </div>
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                <h1 id="search-title" class="search-title"></h1>
               </div>
+            </div>
             </template>
 
             <template id="search-result" hidden>
@@ -292,9 +346,9 @@ if (!doNotTrack) {
     <div class="col-md-12">
       
         <div class="well">
-          <p>If you have any question, suggestion or request, you can reach me out at:</p>
+          <p>If you have any question, suggestion or request, you can reach me out through:</p>
 <p><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" id="mdi-email" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg> <a href="mailto:diegomellizo@outlook.com"  target="_blank">diegomellizo@outlook.com</a></p>
-<p><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" id="mdi-linkedin" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" /></svg> <a href="https://linkedin.com/in/diego-alexander-mellizo-ca%c3%b1%c3%b3n-0a199985"  target="_blank">LinkedIn</a></p>
+<p><svg aria-hidden="true" class="hi-svg-inline" fill="currentColor" height="1em" id="mdi-linkedin" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z" /></svg> <a href="https://www.linkedin.com/in/diego-alexander-mellizo-ca%C3%B1%C3%B3n-0a199985/?locale=en_US"  target="_blank">LinkedIn</a></p>
 
         </div>
       
