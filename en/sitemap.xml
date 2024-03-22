@@ -16,18 +16,18 @@
                 href="https://diegomellizo.com/professional-projects/means-of-transport/"
                 />
   </url><url>
-    <loc>https://diegomellizo.com/personal-projects/tank-blast-arena-2d/</loc>
+    <loc>https://diegomellizo.com/personal-projects/degree-project/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://diegomellizo.com/es/personal-projects/tank-blast-arena-2d/"
+                href="https://diegomellizo.com/es/personal-projects/degree-project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://diegomellizo.com/personal-projects/tank-blast-arena-2d/"
+                href="https://diegomellizo.com/personal-projects/degree-project/"
                 />
   </url><url>
     <loc>https://diegomellizo.com/professional-projects/racing/</loc>
@@ -42,6 +42,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://diegomellizo.com/professional-projects/racing/"
+                />
+  </url><url>
+    <loc>https://diegomellizo.com/personal-projects/tank-blast-arena-2d/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://diegomellizo.com/es/personal-projects/tank-blast-arena-2d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://diegomellizo.com/personal-projects/tank-blast-arena-2d/"
                 />
   </url><url>
     <loc>https://diegomellizo.com/professional-projects/defender/</loc>
@@ -211,20 +225,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://diegomellizo.com/contact-me/"
-                />
-  </url><url>
-    <loc>https://diegomellizo.com/degree-project/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://diegomellizo.com/es/degree-project/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://diegomellizo.com/degree-project/"
                 />
   </url><url>
     <loc>https://diegomellizo.com/personal-projects/</loc>

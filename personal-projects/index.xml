@@ -10,6 +10,13 @@
     <webMaster>diegomellizo@outlook.com (Diego Mellizo)</webMaster>
     <atom:link href="https://diegomellizo.com/personal-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Philip&#39;s Adventure</title>
+      <link>https://diegomellizo.com/personal-projects/degree-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>diegomellizo@outlook.com (Diego Mellizo)</author>
+      <guid>https://diegomellizo.com/personal-projects/degree-project/</guid>
+      <description>In collaboration with Felipe López 2014 - 2015 Genre: Educational video game, RPG (Role-Playing Game), open world.&#xA;Description: Support tool for teaching English to native Spanish-speaking children in primary school. It develops in a medieval environment and tells the story of Philip, a young man in a journey to become a White Knight.</description>
+    </item>
+    <item>
       <title>Tank Blast Arena 2D</title>
       <link>https://diegomellizo.com/personal-projects/tank-blast-arena-2d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>diegomellizo@outlook.com (Diego Mellizo)</author>
