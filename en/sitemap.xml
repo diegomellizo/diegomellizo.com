@@ -185,20 +185,6 @@
                 href="https://diegomellizo.com/"
                 />
   </url><url>
-    <loc>https://diegomellizo.com/about-me/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://diegomellizo.com/es/about-me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://diegomellizo.com/about-me/"
-                />
-  </url><url>
     <loc>https://diegomellizo.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
