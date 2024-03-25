@@ -48,6 +48,43 @@
 
 <style>
  
+ 
+:root[data-theme="dark"] {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+:root[data-theme="dark"] img,
+:root[data-theme="dark"] video,
+:root[data-theme="dark"] iframe,
+:root[data-theme="dark"] body [style*="background-image"] {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+:root[data-theme="dark"] p,
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3,
+:root[data-theme="dark"] h4,
+:root[data-theme="dark"] h5,
+:root[data-theme="dark"] h6,
+:root[data-theme="dark"] .card-body div,
+:root[data-theme="dark"] footer li,
+:root[data-theme="dark"] a[type="button"],
+:root[data-theme="dark"] a[role="button"] {
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+}
+ 
+
+ 
+:root[data-theme="dark"] video:fullscreen {
+    filter: none;
+    -webkit-filter: none;
+}
+
+ 
 a {
     color: #008aff;
 }
@@ -72,13 +109,7 @@ a {
 }
 
  
-:root[data-theme="dark"] video:fullscreen {
-    filter: none;
-    -webkit-filter: none;
-}
-
- 
-.flagselect {
+.flagselect img {
     border: 2px solid #008aff;
     border-radius: 10px;
     padding: 0;
@@ -88,7 +119,7 @@ a {
     top: 5px;
 }
 
-.flagnoselect {
+.flagnoselect img {
     padding: 0;
     margin: 0;
     width: 25px;
@@ -201,18 +232,22 @@ if (!doNotTrack) {
 
               
               
-              
-              
-              <a class="flagselect" href="/categories/">
-                <img src="/images/lang-flags/en-flag.png"/>
-              </a>
-              
-              
-              
-              <a class="flagnoselect" href="/es/categories/">
-                <img src="/images/lang-flags/es-flag.png"/>
-              </a>
-              
+                
+                    
+                      <li class="nav-item">
+                        <a class="flagselect" href="/categories/">
+                          <img src="/images/lang-flags/en-flag.png"/>
+                        </a>
+                      </li>
+                    
+                
+                    
+                      <li class="nav-item">
+                        <a class="flagnoselect" href="/es/categories/">
+                          <img src="/images/lang-flags/es-flag.png"/>
+                        </a>
+                      </li>
+                    
 
               <li class="nav-item nav-link">
                 <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
