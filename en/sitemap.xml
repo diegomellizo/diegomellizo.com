@@ -58,6 +58,20 @@
                 href="https://diegomellizo.com/personal-projects/tank-blast-arena-2d/"
                 />
   </url><url>
+    <loc>https://diegomellizo.com/personal-projects/aura/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://diegomellizo.com/es/personal-projects/aura/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://diegomellizo.com/personal-projects/aura/"
+                />
+  </url><url>
     <loc>https://diegomellizo.com/professional-projects/defender/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -185,7 +199,7 @@
                 />
   </url><url>
     <loc>https://diegomellizo.com/</loc>
-    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
